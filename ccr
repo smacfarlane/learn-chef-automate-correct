@@ -1,0 +1,3 @@
+#!/bin/bash
+
+chef-client -j /etc/chef/dna.json -c /etc/chef/client.rb -z  -i 30

@@ -1,0 +1,6 @@
+version: '3'
+services:
+  chef-client:
+    image: chefdemo/correct:latest
+    volumes:
+      - ./cookbooks:/var/lib/chef/cookbooks
