@@ -2,8 +2,10 @@
 
 ## Build the docker container
 
+```
 docker build .
 docker tag <id from previous command> chefdemo:correct
+```
 
 ## Run the chef-client
 
