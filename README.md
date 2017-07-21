@@ -4,7 +4,7 @@
 
 ```
 docker build .
-docker tag <id from previous command> chefdemo:correct
+docker tag <id from previous command> chefdemo/correct
 ```
 
 ## Run the chef-client
